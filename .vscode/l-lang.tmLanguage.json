@@ -1,0 +1,19 @@
+{
+  "name": "L-lang",
+  "patterns": [
+    {
+      "name": "keyword.control.l-lang",
+      "match": "\\b(let|var|if|else|elseif|while|do|class|enum|impl|pub|priv|fnc|function)\\b"
+    },
+    {
+      "name": "constant.numeric.l-lang",
+      "match": "\\b\\d+(\\.\\d+)?\\b"
+    },
+    {
+      "name": "string.quoted.double.l-lang",
+      "begin": "\"",
+      "end": "\""
+    }
+  ],
+  "scopeName": "source.l"
+}
