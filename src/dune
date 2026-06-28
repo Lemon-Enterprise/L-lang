@@ -1,0 +1,4 @@
+(executable
+ (name main)
+ (public_name l-lang)
+ (modules token lexer ast parser main))
